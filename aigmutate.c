@@ -15,23 +15,28 @@ int getRand(int n){
 
 int main(int argc,char** argv){
 
-    //const char* filepath=argv[1];
+    if(argc<3){
+        printf("need file in and file out.");
+        return 1;
+    }
+    const char* filepath=argv[1];
+    const char* fileout=argv[2];
     //printf(".");
     time_t t;
     srand((unsigned) time(&t));
-    char filepath[100]="/mnt/d/softwareTesting/AIGCover/UNSAT.aig";
+    //char filepath[100]="/mnt/d/softwareTesting/AIGCover/UNSAT.aig";
     aiger* aig = aiger_init();
 
-    /*
+    
     FILE* file=fopen(filepath,"r");
     const char* msg = aiger_read_from_file(aig,file);
     fclose(file);
     aigmutate(aig);
-    file=fopen("/mnt/d/softwareTesting/AIGCover/mutateTest.aig","w");
+    file=fopen(fileout,"w");
     aiger_write_to_file(aig,0,file);
     fclose(file);
-    */
     
+    /*
     FILE* pFile;   //文件指针
     u32 lSize;   // 用于文件长度
     u8* buffer; // 文件缓冲区指针
@@ -51,7 +56,7 @@ int main(int argc,char** argv){
     // terminate // 文件终止
     fclose(pFile);
     free(buffer);
-    
+    */
     return 0;
 }
 
