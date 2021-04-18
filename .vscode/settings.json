@@ -1,0 +1,21 @@
+{
+    "files.associations": {
+        "assert.h": "c",
+        "aiger.h": "c",
+        "*.tcc": "c",
+        "bitset": "c",
+        "optional": "c",
+        "functional": "c",
+        "fstream": "c",
+        "istream": "c",
+        "ostream": "c",
+        "sstream": "c",
+        "streambuf": "c",
+        "*.gen": "c",
+        "array": "c",
+        "string_view": "c",
+        "initializer_list": "c",
+        "utility": "c",
+        "cstdio": "cpp"
+    }
+}

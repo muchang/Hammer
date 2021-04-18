@@ -1,0 +1,28 @@
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "C/C++",
+            "command": "/usr/bin/gcc",
+            "args": [
+                "-g",
+                "/mnt/d/softwareTesting/AIGCover/AIGCoverNew/AIGCover/aiger.c",
+                "/mnt/d/softwareTesting/AIGCover/AIGCoverNew/AIGCover/aigmutate.c",
+                "-o",
+                "/mnt/d/softwareTesting/AIGCover/AIGCoverNew/AIGCover/aigmutate"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "调试器生成的任务。"
+        }
+    ],
+    "version": "2.0.0"
+}
