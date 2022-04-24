@@ -1,6 +1,8 @@
 # AIGCover
 A Coverage-Guided Fuzzer for Hardware Model Checkers
 
+Reference: [Feedback-Guided Circuit Structure Mutation for Testing Hardware Model Checkers](https://ieeexplore.ieee.org/abstract/document/9643509) 
+
 -----
 ## Introduction
 We introduce AIGCover, an effective coverage-guided fuzzer for validating the implementation of hardware model checker.
